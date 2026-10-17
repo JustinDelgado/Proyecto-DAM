@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- INICIO -->
+
+    <item
+        android:id="@+id/nav_inicio"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Inicio" />
+
+    <!-- CLIENTES -->
+
+    <item
+        android:id="@+id/nav_clientes"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Clientes Turísticos" />
+
+    <!-- LUGARES -->
+
+    <item
+        android:id="@+id/nav_lugares"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Lugares Turísticos" />
+
+    <!-- ITINERARIOS -->
+
+    <item
+        android:id="@+id/nav_itinerarios"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Itinerarios" />
+
+    <!-- RESERVAS -->
+
+    <item
+        android:id="@+id/nav_reservas"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Reservas" />
+
+    <!-- PAGOS -->
+
+    <item
+        android:id="@+id/nav_pagos"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Pagos" />
+
+    <!-- ACERCA DE -->
+
+    <item
+        android:id="@+id/nav_acerca_de"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Acerca de" />
+
+</menu>

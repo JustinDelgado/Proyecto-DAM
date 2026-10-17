@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- INPUT ENFOCADO -->
+
+    <item android:state_focused="true">
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="@android:color/white" />
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/purple_primary" />
+
+            <corners android:radius="16dp" />
+
+            <padding
+                android:left="14dp"
+                android:top="14dp"
+                android:right="14dp"
+                android:bottom="14dp" />
+
+        </shape>
+
+    </item>
+
+    <!-- INPUT NORMAL -->
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="@color/purple_input_bg" />
+
+            <stroke
+                android:width="1dp"
+                android:color="@color/purple_input_stroke" />
+
+            <corners android:radius="16dp" />
+
+            <padding
+                android:left="14dp"
+                android:top="14dp"
+                android:right="14dp"
+                android:bottom="14dp" />
+
+        </shape>
+
+    </item>
+
+</selector>

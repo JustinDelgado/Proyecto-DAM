@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- BASE -->
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- PALETA PRINCIPAL -->
+
+    <color name="colorPrimary">#6A1B9A</color>
+
+    <color name="purple_primary">#6A1B9A</color>
+
+    <color name="purple_dark">#4A148C</color>
+
+    <color name="purple_light_card">#F3E5F5</color>
+
+    <!-- INPUTS -->
+
+    <color name="purple_input_bg">#FFFFFF</color>
+
+    <color name="purple_input_stroke">#D6D6D6</color>
+
+    <!-- FONDOS -->
+
+    <color name="bg_app">#F5F7FB</color>
+
+    <!-- TEXTOS -->
+
+    <color name="text_primary">#212121</color>
+
+    <color name="text_secondary">#757575</color>
+
+    <!-- BOTÓN ELIMINAR -->
+
+    <color name="danger_red">#D32F2F</color>
+
+    <!-- ÉXITO -->
+
+    <color name="success_green">#2E7D32</color>
+
+</resources>

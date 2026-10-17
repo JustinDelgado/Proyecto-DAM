@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- ========================================================= -->
+    <!-- NACIONALIDADES -->
+    <!-- ========================================================= -->
+
+    <string-array name="nacionalidades">
+
+        <item>Seleccione una nacionalidad</item>
+
+        <item>Ecuatoriana</item>
+        <item>Colombiana</item>
+        <item>Peruana</item>
+        <item>Argentina</item>
+        <item>Brasileña</item>
+        <item>Chilena</item>
+        <item>Mexicana</item>
+        <item>Española</item>
+        <item>Estadounidense</item>
+
+        <item>Otra</item>
+
+    </string-array>
+
+    <!-- ========================================================= -->
+    <!-- GÉNEROS -->
+    <!-- ========================================================= -->
+
+    <string-array name="generos">
+
+        <item>Seleccione un género</item>
+
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>No binario</item>
+        <item>Otro</item>
+        <item>Prefiero no decirlo</item>
+
+    </string-array>
+
+    <!-- ========================================================= -->
+    <!-- TIPOS DE TURISTA -->
+    <!-- ========================================================= -->
+
+    <string-array name="tipos_turista">
+
+        <item>Seleccione un tipo</item>
+
+        <item>Aventurero</item>
+        <item>Familiar</item>
+        <item>Ejecutivo</item>
+        <item>Mochilero</item>
+        <item>Ecológico</item>
+        <item>Cultural</item>
+        <item>Gastronómico</item>
+
+    </string-array>
+
+    <!-- ========================================================= -->
+    <!-- CATEGORÍAS DE LUGARES -->
+    <!-- ========================================================= -->
+
+    <string-array name="categorias_lugares">
+
+        <item>Seleccione una categoría</item>
+
+        <item>Playa</item>
+        <item>Montaña</item>
+        <item>Ciudad</item>
+        <item>Parque Nacional</item>
+        <item>Isla</item>
+        <item>Selva</item>
+        <item>Centro Histórico</item>
+
+    </string-array>
+
+    <!-- ========================================================= -->
+    <!-- PAQUETES -->
+    <!-- ========================================================= -->
+
+    <string-array name="paquetes_turisticos">
+
+        <item>Seleccione un paquete</item>
+
+        <item>Galápagos Premium</item>
+        <item>Ruta Andina</item>
+        <item>Amazonía Explorer</item>
+        <item>Playas del Ecuador</item>
+        <item>Quito Colonial</item>
+
+    </string-array>
+
+</resources>

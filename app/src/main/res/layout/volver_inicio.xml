@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- CARD PRINCIPAL -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card_rounded"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <!-- ICONO -->
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_marginBottom="18dp"
+                android:contentDescription="Icono Turismo"
+                android:src="@android:drawable/ic_menu_compass"
+                app:tint="@color/purple_primary" />
+
+            <!-- TÍTULO -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="Bienvenido"
+                android:textColor="@color/text_primary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <!-- SUBTÍTULO -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:gravity="center"
+                android:text="Selecciona una opción para continuar"
+                android:textColor="@color/text_secondary"
+                android:textSize="15sp" />
+
+            <!-- BOTÓN CLIENTES -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_clientes"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginBottom="14dp"
+                android:text="Clientes Turísticos"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:icon="@android:drawable/ic_menu_myplaces"
+                app:iconGravity="textStart"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white" />
+
+            <!-- BOTÓN LUGARES -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_lugares"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginBottom="14dp"
+                android:text="Lugares Turísticos"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:icon="@android:drawable/ic_menu_mapmode"
+                app:iconGravity="textStart"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white" />
+
+            <!-- BOTÓN ITINERARIOS -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_itinerarios"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginBottom="14dp"
+                android:text="Itinerarios"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:icon="@android:drawable/ic_menu_agenda"
+                app:iconGravity="textStart"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white" />
+
+            <!-- BOTÓN RESERVAS -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_reservas"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginBottom="14dp"
+                android:text="Reservas"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:icon="@android:drawable/ic_menu_today"
+                app:iconGravity="textStart"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white" />
+
+            <!-- BOTÓN PAGOS -->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_pagos"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Pagos"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:icon="@android:drawable/ic_menu_save"
+                app:iconGravity="textStart"
+                app:iconPadding="12dp"
+                app:iconTint="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

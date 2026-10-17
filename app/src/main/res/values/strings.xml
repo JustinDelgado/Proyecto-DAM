@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- ========================================================= -->
+    <!-- APP -->
+    <!-- ========================================================= -->
+
+    <string name="app_name">Sistema Turístico</string>
+
+    <!-- ========================================================= -->
+    <!-- REGISTRO -->
+    <!-- ========================================================= -->
+
+    <string name="title_registro">Registro de Usuario</string>
+
+    <!-- INPUTS -->
+
+    <string name="hint_cedula">Número de cédula</string>
+
+    <string name="hint_edad">Edad</string>
+
+    <string name="hint_nombres">Nombres completos</string>
+
+    <string name="hint_apellidos">Apellidos completos</string>
+
+    <string name="hint_fecha_nacimiento">Fecha de nacimiento</string>
+
+    <!-- LABELS -->
+
+    <string name="label_nacionalidad">Nacionalidad</string>
+
+    <string name="label_genero">Género</string>
+
+    <string name="label_estado_civil">Estado civil</string>
+
+    <string name="label_nivel_ingles">Nivel de inglés</string>
+
+    <!-- RADIO BUTTONS -->
+
+    <string name="rb_soltero">Soltero</string>
+
+    <string name="rb_casado">Casado</string>
+
+    <string name="rb_divorciado">Divorciado</string>
+
+    <!-- BOTONES -->
+
+    <string name="btn_registrar">Registrar usuario</string>
+
+    <string name="btn_recuperar">Recuperar datos</string>
+
+    <string name="btn_borrar">Limpiar campos</string>
+
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- ========================================================= -->
+    <!-- LOGIN -->
+    <!-- ========================================================= -->
+
+    <string name="login_title">Bienvenido</string>
+
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+
+    <string name="hint_usuario">Usuario</string>
+
+    <string name="hint_password">Contraseña</string>
+
+    <string name="btn_login">Ingresar</string>
+
+    <string name="btn_crear_cuenta">Registrar usuarios</string>
+
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+
+    <!-- ========================================================= -->
+    <!-- MENÚ -->
+    <!-- ========================================================= -->
+
+    <string name="menu_inicio">Inicio</string>
+
+    <string name="menu_clientes">Clientes Turísticos</string>
+
+    <string name="menu_lugares">Lugares Turísticos</string>
+
+    <string name="menu_itinerarios">Itinerarios</string>
+
+    <string name="menu_reservas">Reservas</string>
+
+    <string name="menu_pagos">Pagos</string>
+
+    <!-- ========================================================= -->
+    <!-- BOTONES GENERALES -->
+    <!-- ========================================================= -->
+
+    <string name="btn_guardar">Guardar</string>
+
+    <string name="btn_actualizar">Actualizar</string>
+
+    <string name="btn_eliminar">Eliminar</string>
+
+    <string name="btn_siguiente">Siguiente</string>
+
+    <string name="btn_regresar">¿Volver al Inicio?</string>
+
+    <!-- ========================================================= -->
+    <!-- MENSAJES -->
+    <!-- ========================================================= -->
+
+    <string name="msg_campos_vacios">Por favor complete todos los campos.</string>
+
+    <string name="msg_registro_exitoso">Registro realizado correctamente.</string>
+
+    <string name="msg_error_login">Usuario o contraseña incorrectos.</string>
+
+    <string name="msg_datos_eliminados">Datos eliminados correctamente.</string>
+
+    <string name="msg_actualizacion_exitosa">Datos actualizados correctamente.</string>
+
+</resources>
